@@ -161,7 +161,7 @@ a{
 .box-1 .case-image{
   max-width: 50%;
   position: relative;
-  top: -40px;
+  top: -100px;
   left: -170px;
   z-index: 5;
 }
