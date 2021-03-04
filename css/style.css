@@ -75,9 +75,9 @@ a{
 }
 
 #top-nav a{
-  color: #c1c1c1;
-  font-size: 1.2em;
-  font-weight: 400;
+  color: #000;
+  font-size: 1.4em;
+  font-weight: 700;
 }
 
 #top-nav li .home-nav{
@@ -109,7 +109,7 @@ a{
 .post > a > small{
   display: block;
   margin-bottom: 6px;
-  color: rgb(151, 151, 151) !important;
+  color: #000 !important;
 }
 
 .post{
