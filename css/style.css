@@ -106,7 +106,7 @@ a{
   border-bottom: 4px solid #000;
 }
 
-.post > a > p{
+.post > p{
   display: block;
   margin-bottom: 4px;
 }
