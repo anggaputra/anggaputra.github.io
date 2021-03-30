@@ -75,9 +75,9 @@ a{
 }
 
 #top-nav a{
-  color: #c1c1c1;
-  font-size: 1.2em;
-  font-weight: 400;
+  color: #000;
+  font-size: 1.4em;
+  font-weight: 700;
 }
 
 #top-nav li .home-nav{
@@ -91,7 +91,7 @@ a{
 
 #top-nav li a:hover{
   text-decoration: none;
-  color: #000;
+  color: #c1c1c1;
 }
 
 #top-nav:hover .home-nav{
@@ -106,10 +106,9 @@ a{
   border-bottom: 4px solid #000;
 }
 
-.post > a > small{
+.post > p{
   display: block;
-  margin-bottom: 6px;
-  color: rgb(151, 151, 151) !important;
+  margin-bottom: 4px;
 }
 
 .post{
@@ -118,10 +117,6 @@ a{
 
 .post > a{
   color: #000;
-}
-
-.post > small{
-  color: #c1c1c1;
 }
 
 /* ---- Case Studies ---- */
@@ -166,7 +161,7 @@ a{
 .box-1 .case-image{
   max-width: 50%;
   position: relative;
-  top: -40px;
+  top: -100px;
   left: -170px;
   z-index: 5;
 }
