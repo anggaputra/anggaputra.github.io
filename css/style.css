@@ -42,13 +42,14 @@ a{
 
 .btn-top {
     background-color: transparent;
-    border: 3px solid #000;
-    color: #000;
+    border: 3px solid #fff;
+    color: #fff;
     padding: 10px 20px;
     border-radius: 4px;
     font-size: 1em;
     font-weight: 700;
     margin: 20px 0;
+    float: left;
 
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -58,8 +59,9 @@ a{
 }
 
 .btn-top:hover{
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
 }
 
 #top-nav{
@@ -246,126 +248,20 @@ a{
   background: #F8401C;
   color: #EDEDB9;
 }
-
-/* ---- My Resume ---- */
-.my-resume-container{
-  background: #FFF;
-}
-
-.my-resume-slider-content{
-  float: left;
-  width: 900px;
-  margin:0 auto;
-}
-
-.my-resume{
-  padding: 10em 5em;
-  width: 900px;
-  overflow: hidden;
-  background: #FFF;
-  margin: 0 auto;
-}
-
-.my-resume-box{
-  background: #FFFFFF;
-  /*box-shadow: 0 5px 55px 0 rgba(0,0,0,0.12);*/
-  border-radius: 12px;
-  width: 900px;
-  float: left;
-  position: relative;
-  margin: 0 auto;
-}
-
-.my-resume-years{
-  background: #FFFFFF;
-  /*box-shadow: 0 2px 55px 0 rgba(0,0,0,0.12);*/
-  float: left;
-  border-radius: 12px 0px 0px 12px;
-  margin-right: 20px;
-  text-align: center;
-  width: 230px;
-}
-
-.my-resume-years .from,
-.my-resume-years .until{
-  font-size: 40px;
-}
-
-.my-resume-content{
-  float: left;
-  width: 500px; 
-}
-
-.my-resume-content h3{
-  margin-top: 0px;
-  color: #000;  
-
-}
-
-.my-resume-content small{
-  margin-top: 30px;
-  color: #000;  
-  font-size: 16px;
-
-}
-
-.my-resume-content p{
- font-size: 1.2em;
-}
-
-.slick-prev{
+.latestproject-box{
+  border-radius: 16px;
   background: #000;
-  padding: 10px;
-}
+  width: 94%;
+  height: 120px;
+  margin: 20px;
+  padding: 20px;
 
-.slick-next{
-  background: #F8401C;
-  padding: 15px;
-  position: relative;
-  top: 8px;
-}
+  box-shadow: 1px 22px 67px 5px rgba(0,0,0,0.31);
+-webkit-box-shadow: 1px 22px 67px 5px rgba(0,0,0,0.31);
+-moz-box-shadow: 1px 22px 67px 5px rgba(0,0,0,0.31);
 
-.my-resume-slider-container{
-  position: relative;
-  float: left;
-  width: 900px;
-}
+color: #fff;
 
-#my-resume-nav{
-  float: left;
-  margin-left: 30px;
-  position: relative;
-}
-
-
-/* ---- Dribbble ---- */
-.dribbble-feed{
-  background: #FFF;
-  padding: 10em 5em;
-}
-
-.dribbble-feed h2{
-  padding: 0 10px;
-  margin-bottom: 20px;
-  font-size: 25px;
-}
-
-#dribbble-shots{
-  float: left;
-  border-radius: 6px;
-}
-
-.box-item{
-  float: left;
-  margin: 10px;
-
-}
-
-.pict-item img{
-  background: #FFFFFF;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
-  border-radius: 4px;
-  
 }
 
 /* ---- Footer ---- */
