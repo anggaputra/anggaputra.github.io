@@ -380,7 +380,6 @@ a{
   list-style: none;
   margin-bottom: 0;
   padding-left: 0;
-  float: left;
 }
 
 .footer ul li{
@@ -606,4 +605,3 @@ a{
 @media (max-width: 991px) and (min-width: 768px){
 
 }
-
