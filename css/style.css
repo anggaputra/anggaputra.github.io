@@ -66,23 +66,27 @@ a{
 
 #top-nav{
   list-style: none;
-  float: left;
   padding: 0;
   margin: 30px 0 0 0;
+  float: left;
 }
 
-#top-nav li{
-  clear: both;
+#top-nav > li{
+  float: left;
   display: block;
+  width: 100%;
 }
 
-#top-nav a{
+#top-nav > li > a{
   color: #000;
   font-size: 1.4em;
   font-weight: 700;
+  float: left;
+  display: block;
+  width: 100%;
 }
 
-#top-nav li .home-nav{
+#top-nav > li .home-nav{
   height: 4px;
   width: 20px;
   background: #c1c1c1;
@@ -91,7 +95,7 @@ a{
   margin-bottom: 10px;
 }
 
-#top-nav li a:hover{
+#top-nav > li a:hover, #top-nav > li > a.active{
   text-decoration: none;
   color: #c1c1c1;
 }
@@ -99,6 +103,57 @@ a{
 #top-nav:hover .home-nav{
   background: #000!important;
 }
+
+
+
+
+#sub-nav{
+  list-style: none;
+  padding: 4px 0 4px 10px;
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+#sub-nav > li{
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+#sub-nav > li > a{
+  color: #000;
+  font-size: 1.1em;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+#sub-nav li .home-nav{
+  height: 4px;
+  width: 20px;
+  background: #c1c1c1;
+  float: left;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#sub-nav li a:hover{
+  text-decoration: none;
+  color: #c1c1c1;
+}
+
+#sub-nav:hover .home-nav{
+  background: #000!important;
+}
+
+
+/* ----- Page content ------*/
+.page-content{
+  margin-top: 4em;
+}
+
 
 /* ----- Latest blog ------*/
 .latest-blog{
@@ -114,7 +169,8 @@ a{
 }
 
 .post{
-  padding: 2em 4em 2em;
+  padding: 2em 0em 2em;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .post > a{
@@ -295,12 +351,28 @@ color: #fff;
       margin-top: 30px;
     }
 
+    .page-header{
+      margin-top: 4em;
+    }
+
+    .page-content {
+      margin-top: 1em;
+    }
+
     
 
 }
 
 
 @media screen and (max-width: 480px){
+
+    .page-header{
+      margin-top: 4em;
+    }
+
+    .page-content {
+      margin-top: 1em;
+    }
 
     .hero-section {
       padding: 5em 2em;
@@ -349,7 +421,7 @@ color: #fff;
     }
 
     .post{
-      padding: 2em 2em 3em;
+      padding: 2em 0em 3em;
     }
 
     .my-resume {
@@ -405,6 +477,14 @@ color: #fff;
 }
 @media screen and (max-width: 750px){
 
+    .page-header{
+      margin-top: 4em;
+    }
+
+    .page-content {
+      margin-top: 1em;
+    }
+    
     .hero-section {
         padding: 5em 3em;
         background: #FFF;
