@@ -104,9 +104,6 @@ a{
   background: #000!important;
 }
 
-
-
-
 #sub-nav{
   list-style: none;
   padding: 4px 0 4px 10px;
@@ -161,20 +158,35 @@ a{
   position: relative;
   border-top: 1px solid #e6e6e6;
   border-bottom: 4px solid #000;
+  float: left;
 }
 
 .post > p{
   display: block;
   margin-bottom: 4px;
+  font-size: 0.9em;
 }
 
 .post{
   padding: 2em 0em 2em;
   border-bottom: 1px solid #e6e6e6;
+  float: left;
+  width: 100%;
 }
 
 .post > a{
   color: #000;
+  display: block;
+  float: left;
+}
+
+.post > a:hover{
+  background: #EDEDB9;
+  text-decoration: none;
+}
+
+.post > a > h5{
+  margin-bottom: 0px;
 }
 
 /* ---- Case Studies ---- */
