@@ -1,6 +1,27 @@
+@import url('http://fonts.cdnfonts.com/css/circular-book');
+
 body{
-  font-family: 'Inter', sans-serif;
-  background-color: #F5F8FD;
+  font-family: 'Circular Book', sans-serif;
+  font-size: 1.2rem;
+  background-color: #212529;
+  padding-bottom: 5em;
+}
+
+
+.homepage{
+  background-color: #E9F5DB;
+}
+
+.blogpage{
+  background-color: #E9F5DB;
+}
+
+.figmapage{
+  background-color: #E9F5DB;
+}
+
+.codingpage{
+  background-color: #E9F5DB;;
 }
 
 a{
@@ -9,7 +30,6 @@ a{
 
 .hero-section{
   padding: 12em 5em;
-  background: #FFF;
   position: relative;
 }
 
@@ -37,7 +57,7 @@ a{
 
 #menu li a{
   font-size: 30px;
-  color: #000;
+  color: #212529;
 }
 
 .btn-top {
@@ -60,7 +80,7 @@ a{
 
 .btn-top:hover{
   background: #fff;
-  color: #000;
+  color: #212529;
   text-decoration: none;
 }
 
@@ -78,7 +98,7 @@ a{
 }
 
 #top-nav > li > a{
-  color: #000;
+  color: #212529;
   font-size: 1em;
   font-weight: 700;
   float: left;
@@ -97,11 +117,11 @@ a{
 
 #top-nav > li a:hover, #top-nav > li > a.active{
   text-decoration: none;
-  color: #c1c1c1;
+  color: #718355;
 }
 
 #top-nav:hover .home-nav{
-  background: #000!important;
+  background: #212529!important;
 }
 
 #sub-nav{
@@ -119,7 +139,7 @@ a{
 }
 
 #sub-nav > li > a{
-  color: #000;
+  color: #212529;
   font-size: 1.1em;
   font-weight: 400;
   display: block;
@@ -142,7 +162,7 @@ a{
 }
 
 #sub-nav:hover .home-nav{
-  background: #000!important;
+  background: #212529!important;
 }
 
 
@@ -154,10 +174,9 @@ a{
 
 /* ----- Latest blog ------*/
 .latest-blog{
-  background: #FFF;
   position: relative;
-  border-top: 1px solid #e6e6e6;
-  border-bottom: 4px solid #000;
+  border-top: 1px solid #212529;
+  border-bottom: 4px solid #212529;
   float: left;
 }
 
@@ -169,13 +188,13 @@ a{
 
 .post{
   padding: 2em 0em 2em;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #212529;
   float: left;
   width: 100%;
 }
 
 .post > a{
-  color: #000;
+  color: #212529;
   display: block;
   float: left;
 }
@@ -268,13 +287,13 @@ a{
 
 .box-3 p{
   margin-top: 8em;
-  color: #000;
+  color: #212529;
 
 }
 .box-3 h2{
   margin-top: 0;
   font-size: 25px;
-  color: #000;
+  color: #212529;
   font-weight: 700;
 }
 
@@ -318,7 +337,7 @@ a{
 }
 .latestproject-box{
   border-radius: 16px;
-  background: #000;
+  background: #212529;
   width: 94%;
   height: 120px;
   margin: 20px;
@@ -425,7 +444,7 @@ color: #fff;
 
     .box-3 p,.box-4 p {
       margin-top: 5em;
-      color: #000;
+      color: #212529;
     }
 
     .box-4 .case-image{
